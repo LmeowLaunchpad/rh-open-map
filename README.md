@@ -14,13 +14,13 @@ The goal is to make the problem **decentralized**: to let anyone pick up a preci
 
 ```mermaid
 flowchart TD
-    W["Weil's criterion: RH  &lt;=&gt;  the Weil form W is positive on every window [1/x, x]"] --> IND["Induction in the window size x<br/>(RH up to x  =&gt;  RH beyond)"]
+    W["Weil's criterion: RH iff the Weil form W is positive on every window [1/x, x]"] --> IND["Induction in the window size x<br/>(RH up to x implies RH beyond)"]
     IND --> ARR["ARRIVAL step: a new prime power enters<br/>[understood: one universal object, RH-neutral]"]
     IND --> GRO["GROWTH step: the window widens<br/>[all RH content lives here]"]
     W --> CERT["Finite windows certified by computer<br/>[proved to x = 11; x = 13 running]"]
     CERT --> ZHU["Beats Zhu's barrier by ~ a square root<br/>(invisible-harmonic certificates)"]
     W --> SIEVE["Positivity sieve: positivity alone regenerates<br/>the primes with von Mangoldt weights [checked to 49]"]
-    SIEVE --> RIG["Existence + Rigidity: RH  &lt;=  ARCHPOS + Rig<br/>[ARCHPOS: one Gamma-function inequality, tight]"]
+    SIEVE --> RIG["Existence + Rigidity: RH follows from ARCHPOS + Rig<br/>[ARCHPOS: one Gamma-function inequality, tight]"]
     GRO --> EDGE["RH = zero regularity at each window's Nyquist edge<br/>(tight zero pairs near height ~ 2 pi x)"]
     GRO --> CAUS["Causality wall: window data alone cannot carry the step"]
 ```
