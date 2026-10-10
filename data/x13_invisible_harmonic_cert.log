@@ -1,0 +1,4 @@
+x = 13 N = 2700 T0 = 1700 prec 448: alpha = [1.1104298 +/- 2.12e-8], eps <= [1.785e-59 +/- 2.32e-63], lam = [1.000e-70 +/- 3e-78]
+even: n = 1351, bulk 1341 (min diag [4.637e-6 +/- 2.36e-10], ||offdiag||_F [3.46e-13 +/- 4.39e-16], PD True), ladder K = 10: Schur LDL True, last pivots [1.5140e-38 +/- 3.98e-43], [6.9246e-45 +/- 2.38e-50], [8.5737e-52 +/- 2.02e-57], [2.0814e-59 +/- 2.43e-64]
+odd: n = 1350, bulk 1340 (min diag [0.0002208 +/- 3.80e-8], ||offdiag||_F [3.47e-13 +/- 4.95e-16], PD True), ladder K = 10: Schur LDL True, last pivots [9.7097e-36 +/- 2.60e-41], [1.2590e-41 +/- 1.05e-46], [2.5674e-48 +/- 2.35e-53], [1.8704e-55 +/- 3.45e-60]
+CERTIFIED: G - lam I > 0 in both sectors with lam(alpha - eps) >= eps^2  =>  Weil form >= 0 on the window x = 13 (5153.5 s)

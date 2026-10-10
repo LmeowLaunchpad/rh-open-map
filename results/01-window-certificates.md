@@ -39,7 +39,7 @@ In practice T0 is also limited by the freezing loss on the deepest ladder level 
 |---|---|---|---|---|---|
 | x = 7 | 220 | 400 | 256 | 4.4e-28 / 1.1e-24 | [proved, computer-assisted], awaiting verification |
 | x = 11 | 800 | 1280 | 384 | 6.7e-49 / 4.2e-45 | [proved, computer-assisted], awaiting verification |
-| x = 13 | 1700 | 2700 | 448 | running | |
+| x = 13 | 1700 | 2700 | 448 | 2.1e-59 / 1.9e-55 | [proved, computer-assisted], awaiting verification |
 
 x = 11: quadrature error unit 1.0e-75, tail eps 1.4e-73, alpha' = 1.0797, ladder K = 8 per sector. The certified levels sit just
 below the true ones measured independently (true even ground 1.86e-48, odd 8.22e-45 at x = 11). At T0 = 550 the even sector certified

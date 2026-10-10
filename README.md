@@ -17,7 +17,7 @@ flowchart TD
     W["Weil's criterion: RH iff the Weil form W is positive on every window [1/x, x]"] --> IND["Induction in the window size x<br/>(RH up to x implies RH beyond)"]
     IND --> ARR["ARRIVAL step: a new prime power enters<br/>[understood: one universal object, RH-neutral]"]
     IND --> GRO["GROWTH step: the window widens<br/>[all RH content lives here]"]
-    W --> CERT["Finite windows certified by computer<br/>[proved to x = 11; x = 13 running]"]
+    W --> CERT["Finite windows certified by computer<br/>[proved to x = 13]"]
     CERT --> ZHU["Beats Zhu's barrier by ~ a square root<br/>(invisible-harmonic certificates)"]
     W --> SIEVE["Positivity sieve: positivity alone regenerates<br/>the primes with von Mangoldt weights [checked to 49]"]
     SIEVE --> RIG["Existence + Rigidity: RH follows from ARCHPOS + Rig<br/>[ARCHPOS: one Gamma-function inequality, tight]"]
@@ -29,7 +29,7 @@ flowchart TD
 
 | Result | Status | Where |
 |---|---|---|
-| Weil positivity certified on every window up to **x = 11** (supp g in [-log 11, log 11]); previous published record x = 4.953 (Zhu) | [proved, computer-assisted] *awaiting independent verification* | [results/01](results/01-window-certificates.md) |
+| Weil positivity certified on every window up to **x = 13** (supp g in [-log 13, log 13]); previous published record x = 4.953 (Zhu) | [proved, computer-assisted] *awaiting independent verification* | [results/01](results/01-window-certificates.md) |
 | **Invisible-harmonic certificates**: a certificate class outside Zhu's barrier theorem, cutting the required frequency cutoff from 2 pi e^{A_x} to about 2 pi e^{A_x/2} (x = 11: 800 instead of ~13,000) | [proved] method; [proved, computer-assisted] runs | [results/01](results/01-window-certificates.md) |
 | Krein duality: the best possible version of this certificate equals a compressed prime-operator norm Lambda_x ~ 1.1 sqrt(x), matching the detection limit of off-line zeros ~ e^{sqrt x} | [proved] identification; [checked] values | [results/01](results/01-window-certificates.md) |
 | **Positivity sieve**: Weil positivity + Gamma factor + pole alone re-derive every prime power 2..49 with weight Lambda(n)/sqrt(n) and reject all composites | [checked] | [results/02](results/02-positivity-sieve.md) |

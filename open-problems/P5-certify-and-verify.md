@@ -4,5 +4,5 @@
   wcert_h.py (the invisible-harmonic patch of the frozen-symbol engine): the invisibility condition (K_p + 1) log p > log x, the
   normalisation of the atoms against the (1/pi) int_0^T0 convention, the exact moment solve and positivity of the atom weights, the
   added tail term.
-- Push to x = 13 (running at the time of writing: T0 = 1700, N = 2700, 448 bits) and beyond with P4.
+- x = 13 is certified (T0 = 1700, N = 2700, 448 bits, ~1.5 h on a laptop); re-run it independently. Beyond 13 needs P4 or more memory (x = 17: ~12 GB).
 - Cross-check against Zhu (support <= 1.6) and Groskin (Galerkin compressions to x = 100).

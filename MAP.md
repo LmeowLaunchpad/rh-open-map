@@ -15,7 +15,7 @@ By the explicit formula W(f) = sum over zeros of ghat(gamma). Window positivity 
 
 | # | Component | Statement (short) | Status | Page |
 |---|---|---|---|---|
-| A1 | Window certificates | W_x >= 0 for x <= 11 | [proved, computer-assisted], awaiting verification; x = 13 running | results/01 |
+| A1 | Window certificates | W_x >= 0 for x <= 13 | [proved, computer-assisted], awaiting verification | results/01 |
 | A2 | Invisible-harmonic method | replace each prime's comb by -C_p + positive atoms (Caratheodory-Toeplitz); harmonics above the window are invisible | [proved] | results/01 |
 | A3 | Krein optimality | best certificate constant = compressed atom norm Lambda_x ~ 1.1 sqrt x; near the off-line-zero detection limit | [proved] / [checked] | results/01 |
 | B1 | Positivity sieve | positivity + Gamma_R + pole re-derive prime powers 2..49 with von Mangoldt weights | [checked] | results/02 |
