@@ -1,0 +1,4 @@
+x = 7 N = 1000 T0 = 900 prec 256: alpha = [0.58301909 +/- 8.57e-10], eps <= [9.793e-18 +/- 9.93e-23], lam = [3.290e-34 +/- 6.35e-39]
+even: n = 501, bulk 497 (min diag [1.128e-6 +/- 7.01e-11], ||offdiag||_F [1.73e-13 +/- 4.95e-16], PD True), ladder K = 4: Schur LDL True, last pivots [5.4173e-11 +/- 2.83e-16], [7.3013e-16 +/- 4.60e-21], [1.4873e-21 +/- 2.97e-26], [5.8714e-28 +/- 2.39e-33]
+odd: n = 500, bulk 496 (min diag [9.270e-5 +/- 8.42e-10], ||offdiag||_F [1.58e-13 +/- 3.68e-16], PD True), ladder K = 4: Schur LDL True, last pivots [6.6862e-9 +/- 3.80e-14], [2.5699e-13 +/- 4.19e-18], [9.9800e-19 +/- 4.57e-24], [1.1754e-24 +/- 1.25e-29]
+CERTIFIED: G - lam I > 0 in both sectors with lam(alpha - eps) >= eps^2  =>  Weil form >= 0 on the window x = 7 (131.7 s)
